@@ -1,0 +1,61 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Java
+*.class
+*.log
+hs_err_pid*
+replay_pid*
+
+# Maven
+target/
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Node.js and pnpm
+node_modules/
+.pnpm-store/
+npm-debug.log*
+pnpm-debug.log*
+
+# Frontend build output
+dist/
+coverage/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.iml
+
+# Operating systems
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python leftovers from the initial scaffold
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+*.egg-info/
+
+# Local databases and temporary files
+*.db
+*.sqlite
+*.sqlite3
+tmp/
+temp/
